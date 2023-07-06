@@ -1,0 +1,19 @@
+{
+  "name": "nodejsexpressapp",
+  "version": "1.0.0",
+  "description": "Start building your next Node.js Express app.",
+  "private": true,
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "ibm-cloud-env": "^0"
+  },
+  "devDependencies": {}
+}
